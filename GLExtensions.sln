@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLExtensions", "GLExtensions\GLExtensions.vcproj", "{BC5B06E4-7748-459A-8738-491089A7A605}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBD876DC-9E2B-4074-94FE-6C68B838B296} = {BBD876DC-9E2B-4074-94FE-6C68B838B296}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeApp", "BeApp\BeApp.vcproj", "{BBD876DC-9E2B-4074-94FE-6C68B838B296}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NVGLWindow", "NVGLWindow\NVGLWindow.vcproj", "{F40E8C3E-6586-4679-8621-61AD0B1AE7CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC5B06E4-7748-459A-8738-491089A7A605}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC5B06E4-7748-459A-8738-491089A7A605}.Debug|Win32.Build.0 = Debug|Win32
+		{BC5B06E4-7748-459A-8738-491089A7A605}.Release|Win32.ActiveCfg = Release|Win32
+		{BC5B06E4-7748-459A-8738-491089A7A605}.Release|Win32.Build.0 = Release|Win32
+		{BBD876DC-9E2B-4074-94FE-6C68B838B296}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBD876DC-9E2B-4074-94FE-6C68B838B296}.Debug|Win32.Build.0 = Debug|Win32
+		{BBD876DC-9E2B-4074-94FE-6C68B838B296}.Release|Win32.ActiveCfg = Release|Win32
+		{BBD876DC-9E2B-4074-94FE-6C68B838B296}.Release|Win32.Build.0 = Release|Win32
+		{F40E8C3E-6586-4679-8621-61AD0B1AE7CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F40E8C3E-6586-4679-8621-61AD0B1AE7CD}.Debug|Win32.Build.0 = Debug|Win32
+		{F40E8C3E-6586-4679-8621-61AD0B1AE7CD}.Release|Win32.ActiveCfg = Release|Win32
+		{F40E8C3E-6586-4679-8621-61AD0B1AE7CD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
